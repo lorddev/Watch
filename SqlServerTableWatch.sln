@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerTableWatch", "SqlServerTableWatch.csproj", "{D1EDFA51-AA0F-4E4A-910C-B8CBC1CB8960}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerTableWatch", "src\SqlServerTableWatch\SqlServerTableWatch.csproj", "{D1EDFA51-AA0F-4E4A-910C-B8CBC1CB8960}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{83735AA4-978B-401E-9D4F-93DBB9ABE09E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{07AF1E0C-8988-4CE4-8C44-7A72B00B9675}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,7 +23,10 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1EDFA51-AA0F-4E4A-910C-B8CBC1CB8960} = {83735AA4-978B-401E-9D4F-93DBB9ABE09E}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F3FE19CB-0A0E-45D0-867C-BA86A1EC690D}
+		SolutionGuid = {BA63F47B-8F50-4931-991A-BD6619100E09}
 	EndGlobalSection
 EndGlobal
